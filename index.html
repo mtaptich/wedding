@@ -50,7 +50,6 @@
 	.venue {
 		position: absolute;
 		top: 1400px;
-		left: 26%;
 	}
 
 	.venue img{
@@ -65,7 +64,6 @@
 	.sleeping {
 		position: absolute;
 		top: 1640px;
-		right: 31%;
 	}
 
 	.sleeping img{
@@ -80,7 +78,7 @@
 	.registry {
 		position: absolute;
 		top: 1900px;
-		left: 26%;
+		left: 35%;
 	}
 
 	.registry img{
@@ -95,7 +93,7 @@
 	.instagram {
 		position: absolute;
 		top: 2180px;
-		right: 31%;
+		right: 40%;
 	}
 
 	.instagram img{
@@ -106,6 +104,59 @@
 	.instagram img:hover { 
     	background-color: yellow;
 	}
+
+	@media (max-width: 2000px) {
+    	.venue, .registry{
+    		left: 33%;
+    	}
+
+    	.sleeping, .instagram{
+    		right: 40%;
+    	}
+	}
+
+	@media (max-width: 1550px) {
+    	.venue, .registry{
+    		left: 31%;
+    	}
+
+    	.sleeping, .instagram{
+    		right: 37%;
+    	}
+	}
+
+	@media (max-width: 1366px) {
+    	.venue, .registry{
+    		left: 30%;
+    	}
+
+    	.sleeping, .instagram{
+    		right: 35%;
+    	}
+	}
+
+	@media (max-width: 1200px) {
+    	.venue, .registry{
+    		left: 26%;
+    	}
+
+    	.sleeping, .instagram{
+    		right: 33%;
+    	}
+	}
+
+	@media (max-width: 1000px) {
+    	.venue, .registry{
+    		left: 250px;
+    	}
+
+    	.sleeping, .instagram{
+    		left: 700px;
+    	}
+	}
+
+
+
 
 </style>
 </head>
