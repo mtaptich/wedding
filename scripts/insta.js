@@ -14,7 +14,7 @@ angular.module("myApp", [])
             return {
                 fetchPopular: function(callback) {
 
-                    var endPoint = "https://api.instagram.com/v1/tags/thetaptichs/media/recent?access_token=40480112.1fb234f.4866541998fd4656a2e2e2beaa5c4bb1&callback=JSON_CALLBACK";
+                    var endPoint = "https://api.instagram.com/v1/tags/taphitched/media/recent?access_token=40480112.1fb234f.4866541998fd4656a2e2e2beaa5c4bb1&callback=JSON_CALLBACK";
 
                     $http.jsonp(endPoint).success(function(response) {
                         callback(response.data);
